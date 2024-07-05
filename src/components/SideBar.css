@@ -20,12 +20,12 @@
     justify-content: center;
     position: fixed;
     top: 0;
-    left: -100%;
+    left: -200px; /*Sets how far in the navbar disappears*/
     transition: 850ms;
 }
 
 .nav-menu.active{
-    left: 0;
+    left: -50px; /*Sets how far out the navbar appears*/
     transition: 350ms;
 }
 
