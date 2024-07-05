@@ -42,18 +42,23 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
     },
     {
       path: "/Ch4",
-      name: "Comment",
-      icon: <FaCommentAlt />,
+      name: "Chapter",
+      icon: "4th",
     },
     {
       path: "/Ch5",
-      name: "Product",
-      icon: <FaShoppingBag />,
+      name: "Chapter",
+      icon: "5th",
     },
     {
-      path: "/productList",
-      name: "Product List",
-      icon: <FaThList />,
+      path: "/Ch6",
+      name: "Chapter",
+      icon: "6th",
+    },
+    {
+      path: "/Comments",
+      name: "Comment",
+      icon: <FaCommentAlt />,
     },
   ];
 
@@ -62,7 +67,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
       <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
         <div className="top_section">
           <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">
-            Logo
+            W.o.D
           </h1>
           <div style={{ marginLeft: isOpen ? "50px" : "0px" }} className="bars">
             <FaBars onClick={toggle} />
