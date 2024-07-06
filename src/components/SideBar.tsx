@@ -78,6 +78,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
             to={item.path}
             key={index}
             className={({ isActive }) => "link" + (isActive ? " active" : "")}
+            end={item.path === "/Windows-Of-Death/"}
           >
             <div className="icon">{item.icon}</div>
             <div
