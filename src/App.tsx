@@ -19,7 +19,7 @@ const App = () => {
     <BrowserRouter>
       <Sidebar>
         <Routes>
-          <Route path="//Windows-Of-Death" element={<Ch1 />} />
+          <Route path="/Windows-Of-Death" element={<Ch1 />} />
           <Route path="/Windows-Of-Death/Ch2" element={<Ch2 />} />
           <Route path="/Windows-Of-Death/Ch3" element={<Ch3 />} />
           <Route path="/Windows-Of-Death/Ch4" element={<Ch4 />} />

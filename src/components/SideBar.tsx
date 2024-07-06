@@ -26,37 +26,37 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
 
   const menuItem: MenuItem[] = [
     {
-      path: "/",
+      path: "/Windows-Of-Death/",
       name: "Chapter",
       icon: "1st",
     },
     {
-      path: "/Ch2",
+      path: "/Windows-Of-Death/Ch2",
       name: "Chapter",
       icon: "2nd",
     },
     {
-      path: "/Ch3",
+      path: "/Windows-Of-Death/Ch3",
       name: "Chapter",
       icon: "3rd",
     },
     {
-      path: "/Ch4",
+      path: "/Windows-Of-Death/Ch4",
       name: "Chapter",
       icon: "4th",
     },
     {
-      path: "/Ch5",
+      path: "/Windows-Of-Death/Ch5",
       name: "Chapter",
       icon: "5th",
     },
     {
-      path: "/Ch6",
+      path: "/Windows-Of-Death/Ch6",
       name: "Chapter",
       icon: "6th",
     },
     {
-      path: "/Comments",
+      path: "/Windows-Of-Death/Comments",
       name: "Comment",
       icon: <FaCommentAlt />,
     },
