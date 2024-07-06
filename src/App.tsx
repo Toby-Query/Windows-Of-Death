@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Sidebar from "./components/SideBar.js";
@@ -19,12 +19,12 @@ const App = () => {
     <BrowserRouter>
       <Sidebar>
         <Routes>
-          <Route path="/" element={<Ch1 />} />
-          <Route path="/Ch2" element={<Ch2 />} />
-          <Route path="/Ch3" element={<Ch3 />} />
-          <Route path="/Ch4" element={<Ch4 />} />
-          <Route path="/Ch5" element={<Ch5 />} />
-          <Route path="/Ch6" element={<Ch6 />} />
+          <Route path="//Windows-Of-Death" element={<Ch1 />} />
+          <Route path="/Windows-Of-Death/Ch2" element={<Ch2 />} />
+          <Route path="/Windows-Of-Death/Ch3" element={<Ch3 />} />
+          <Route path="/Windows-Of-Death/Ch4" element={<Ch4 />} />
+          <Route path="/Windows-Of-Death/Ch5" element={<Ch5 />} />
+          <Route path="/Windows-Of-Death/Ch6" element={<Ch6 />} />
           {/* <Route path="/productList" element={<ProductList />} /> */}
         </Routes>
       </Sidebar>

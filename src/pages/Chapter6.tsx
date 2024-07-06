@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 function Chapter1() {
   return <div>Chapter1</div>;

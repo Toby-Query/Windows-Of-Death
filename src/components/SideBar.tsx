@@ -1,12 +1,12 @@
 import React, { useState, ReactNode } from "react";
 import {
-  FaTh,
+  // FaTh,
   FaBars,
-  FaUserAlt,
-  FaRegChartBar,
+  // FaUserAlt,
+  // FaRegChartBar,
   FaCommentAlt,
-  FaShoppingBag,
-  FaThList,
+  // FaShoppingBag,
+  // FaThList,
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
