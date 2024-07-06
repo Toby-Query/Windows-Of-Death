@@ -9,6 +9,7 @@
 main{
   width: 100%;
   padding: 20px;
+  background-color: #1f1f1f;
 }
 .sidebar{
   background: #000;
