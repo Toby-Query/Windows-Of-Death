@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Windows-Of-Death/"
+  base: "/Windows-Of-Death/",
   plugins: [react()],
 })
